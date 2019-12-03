@@ -1,22 +1,93 @@
-.App {
-  text-align: center;
+section.add-to-do-item {
+  background-color: dodgerblue;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.add-container {
+  padding: 50px;
+  text-align: right;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+h1 {
+  font-size: 70px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+input[type="text"] {
+  width: calc( 100% - 24px);
+  height: 40px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  font-size: 20px;
+  color: dodgerblue;
+}
+
+input[type="submit"] {
+  font-weight: 600;
+  font-size: 20px;
+  width: 100px;
+  height: 40px;
+  color: white;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: dodgerblue;
+  opacity: 0.5;
+  font-size: 20px;
+}
+
+.show-container {
+  padding: 50px;
+  text-align: center;
+}
+
+hr.heading-rule {
+  width: 5%;
+  height: 2px;
+  background: lightgrey;
+  border: none;
+}
+
+h2 {
+  font-size: 40px;
+  color: grey;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.heading-division {
+  margin-bottom: 50px;
+}
+
+ul#my-to-do-List {
+  text-align: left;
+  list-style: none;
+}
+
+li.items {
+  margin: 20px 0;
+}
+
+.items .btn {
+  height: 40px;
+  margin-right: 5px;
+}
+
+.iscompleted {
+  text-decoration: line-through;
+}
+
+.items span {
+  margin-left: 10px;
 }
